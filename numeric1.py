@@ -1,5 +1,5 @@
 a=str(input("enter the element:"))
 if(a.isnumeric()):
-  print("yes")
-else:
-  print("no")
+  print("it is number")
+elif (a.isalfa()):
+  print("it is alphabet")
